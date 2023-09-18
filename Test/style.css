@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+*, *:before, *:after {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    background: #f0eded; 
+    color: #000000; 
+    font: 14px 'Open Sans', sans-serif;
+}
+
+.top { 
+    padding-right: 20px; 
+    background: #f0eded; 
+    text-align: right; 
+}
+a { 
+    color: #000000; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    line-height: 42px; 
+    font-family: "Arial" 
+}
+
+h1 {
+    font-family: "Arial"; 
+    font-size: small; 
+}
+
+.main {
+    margin: 0 auto; 
+    max-width: 750px; 
+    margin-top: 50px; 
+    font-weight: 100; 
+    font-family: "Arial"
+}
+.main .quizsection {
+    margin-bottom: 50px;
+}
+.main .answer {
+    margin-top: 15px;
+}
